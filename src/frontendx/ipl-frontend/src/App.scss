@@ -1,0 +1,138 @@
+.App {
+    padding: 20px;
+    text-align: left;
+}
+
+.TeamPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+
+
+.team-name{
+    grid-column: span 3;
+    justify-self: start;
+    align-self: end;
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+
+.win-loss{
+    justify-self: center;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.latest-match{
+    grid-column: span 4;
+}
+
+.old-matches{
+    padding-top: 30px;
+    justify-self: center;
+}
+
+.more{
+    align-self: center;
+    justify-self: center;
+    height: 80px;
+    margin-bottom: 110px;
+}
+
+}
+
+.MatchDetailCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+    padding: 10px;
+//margin: 10px;
+
+.match-date, .match-venue, .match-result {
+    margin-top: 10px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.additional{
+    text-align: right;
+    padding: 10px;
+&>p{
+     margin-bottom: 20px;
+ }
+}
+
+}
+
+.win-card{
+    background-color: darkseagreen;
+
+}
+
+.lost-card{
+    background-color: lightsalmon;
+//margin: 10px;
+}
+
+.MatchSmallCard{
+    height: 180px;
+    min-width: 150px;
+    justify-self: center;
+    padding: 8px;
+
+.match-result{
+    margin-top: 10px;
+}
+
+}
+
+//match page section---------------////
+
+.MatchPage{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+
+.header{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.year-selector{
+    justify-self: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 90px;
+    text-align: center;
+
+}
+.list-group{
+    list-style-type: none;
+//text-align: left;
+}
+.list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: azure;
+}
+
+}
+
+//HomePage section--------//
+
+.HomePage{
+.team-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+}
+
+.TeamTile{
+    height: 170px;
+    text-align: center;
+    border: 1px solid lightsalmon;
+    padding: 20px;
+}
